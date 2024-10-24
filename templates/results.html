@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apriori Results</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <h1>Data Mining Apriori Algorithm at Google App Engine</h1>
+    <p>Input file: {{ filename }}</p>
+    <p>Minimal support: {{ min_sup }}</p>
+
+    <h3>Frequent Itemsets:</h3>
+    <p>{{ itemsets }}</p>
+
+    <h3>End - total items: {{ total_items }}</h3>
+    <p>Total running time: {{ running_time }} seconds</p>
+
+    <a href="/">Go back</a>
+</body>
+</html>
